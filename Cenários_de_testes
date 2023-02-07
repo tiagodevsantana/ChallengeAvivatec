@@ -1,0 +1,48 @@
+Teste Automatizado Selenium WebDriver (C#)
+***************************************************************************************************************************
+Desafio:
+
+1.Criar um projeto para validar um site qualquer. 
+2.Realizar cadastro de um usuário.
+3.Logar com usuário cadastrado.
+4.Apresentar usuário logado.
+5.Evidenciar cada etapa (via código (screenshot)), guardando em pasta com data do dia, criada em diretório de sua escolha.
+  a.Printar tela principal do site escolhido;
+  b.Printar chamada da tela de Cadastro do novo usuário;
+  c.Printar cadastro efetuado com sucesso;
+  d.Printar tela de login;
+  e.Printar tela com usuário logado.
+6.Criar um log onde apresente cada etapa da automação, com um contador de quantidade de cenários criados, quantidade de sucesso e falha e tempo total de execução. 
+*****************************************************************************************************************************
+Estória:
+
+[CT-01] - Cadastrar novo usuário na plataforma da Petlove
+Cenário: Usuário realizará cadastramento na plataforma Petlove
+Pré-condições: N/A
+
+Dado acessar o site www.petlove.com.br
+Quando clicar em "Cadastrar"
+E clicar em "Crie uma conta agora"
+E preencher o campo e-mail com um e-mail válido
+E preencher o campo nome
+E preencher o campo sobrenome
+E preencher o campo CPF com um CPF válido
+E preencher o campo celular com um celular válido
+E preencher um campo senha com uma senha válida
+E clicar em "Criar minha conta"
+Então deverá criar um usuário com sucesso
+
+[CT-02] - Logar na plataforma Petlove com usuário já cadastrado
+Cenário: Usuário cadastrado se loga na plataforma Petlove
+Pré-condições: Estar cadastrado na plataforma Petlove
+
+Dado acesso ao site www.petlove.com.br
+Quando clico em "Entrar"
+E insiro meu email cadastrado
+E insiro senha cadastrada
+E clico em entrar
+Então usuário deverá logar na plataforma Petlove
+
+****************************************************************************************************************************
+
+
