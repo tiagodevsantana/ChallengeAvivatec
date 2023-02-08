@@ -1,0 +1,30 @@
+Teste Conceitual
+
+1.	Explique na sua percepção qual a importância de testar de forma funcional e não funcional?
+
+   R: Os testes funcionais garantem que o que foi entregue pela equipe de desenvolvimento/arquitetura encontra-se em pleno funcionamento, os não funcionais são complementares,
+  garantindo a melhoria continua dos funcionais, elevando ainda mais os niveis de confiabilidade do sistema. 
+
+2.	Qual a diferença do Teste Funcional para o Não Funcional? Exemplifique.
+
+    R: Os dois são de suma importância na cadeia de produção e entrega de software. O funcional, verifica de fato a funcionalidade do que foi construído ou desenvolvido,
+  de maneira que, ao chegar no usuário final, ele esteja de acordo com o que foi planejado. Os testes não funcionais, vão alem da funcionalidade, eles testam stress, carga, 
+  desempenho, do software que já esta em funcionamento. 
+  Exemplo funcional: Unitário, regressão, fumaça, integração.
+  Exemplo não funcional: Carga, stress, usabilidade, performance.
+
+3.	Quais são os tipos de teste possíveis dentro do Teste de Performance?
+
+   R: Stress, carga, resistência, configuração, teste de subida e/ou descida rápida.
+
+4.	Informar qual a diferença entre Teste de Carga e Teste de Stress? Exemplifique.
+
+    R: Teste de carga - verificar quantas interações simultaneas o sistema suporta, como por exemplo, quantas requisições um determinado site suporta por segundo.
+     Teste de stress - verificar o limite de um sistema com o total de requisições feitas, e avaliar sua degradação e comportamento. 
+
+5.	O que significa Teste de Caixa Preta e Teste de Caixa Branca? Exemplifique.
+
+    R: Teste de caixa branca é realizado no código do software, é aplicado de maneira estrutural, buscando garatir a qualidade na implementação.
+     Teste de caixa preta é compreendido por testes funcionais e não funcionais, onde o software ou microsserviços já estão prontos e precisam ser validados. 
+
+
